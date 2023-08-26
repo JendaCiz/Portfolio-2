@@ -1,0 +1,173 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom, black 50%, white 50%);
+    letter-spacing: 5px;
+    
+}
+
+
+
+
+.name {
+    color: #fa3f00;
+    font-size: 8rem;
+    top: 131px;
+    left: 300px;
+    position: absolute;
+    
+}
+
+.name-2 {
+    margin-bottom: 200px;
+    margin-left: 50px;
+    font-weight: bold;
+    color: #fff;
+    font-size: clamp(50px, 4vw, 150px);
+    padding: 25px;
+    
+}
+
+.info, .vzdelani {
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    letter-spacing: 2.5px;
+    
+}
+
+.info {
+    margin-left: 85px;
+    font-size: 35px;
+}
+
+ul {
+    list-style: none;
+}
+
+.info ul, .info li {
+    list-style: none;
+    padding-top: 15px;
+    
+    
+}
+
+.info a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.vzdelani {
+    padding-top: 337px;
+    
+}
+
+.nav-info {
+    margin-top: -90px;
+}
+
+.nav-vzdelani {
+    margin-top: -100px;
+}
+
+
+.prace{
+    color: #000000;
+    padding-top: 150px;
+    font-weight: bold;
+}
+
+
+.robot {
+    
+    float: right;
+}
+
+h3 {
+    color: #fa3f00;
+    font-size: 2.5rem;
+}
+
+a {
+    font-family:'Roboto', sans-serif;
+    font-size: 2rem;
+    position: absolute;
+    z-index: 1000;
+}
+
+img {
+    
+    margin-left: 50px;
+}
+
+
+
+
+
+
+.robot {
+    filter: drop-shadow(0 0 10px #fa3f00); 
+    transition: filter 0.5s ease-in-out; 
+}
+
+.robot:hover {
+    filter: drop-shadow(0 0 20px #e91cff); 
+}
+
+
+
+#flowingText {
+    font-size: 2rem;
+    display: inline-block;
+    transition: transform 0.2s;
+    color: white;
+}
+
+
+
+
+
+
+
+
+h1 {
+    transform: translateX(-100%);  
+    opacity: 0; 
+    transition: transform 1.3s ease-out, opacity 1s ease-out; 
+}
+
+
+.vzdelani {
+    transform: translateX(100%);  
+    opacity: 0;  
+    transition: transform 1s ease-out, opacity 1s ease-out; 
+}
+
+
+
+
+.robot {
+    transform: translateY(100%);  
+    opacity: 0;  
+    transition: transform 1s ease-out, opacity 1s ease-out;  
+}
+
+
+
+
+.info {
+    opacity: 0;  
+    transition: opacity 2s ease-out; 
+}
+
+
+h2.name-2 {
+    opacity: 0;  
+    transition: opacity 1s ease-out; 
+}

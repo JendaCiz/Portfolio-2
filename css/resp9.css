@@ -1,0 +1,168 @@
+@media screen and (max-width: 950px) {
+
+    * {
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+    
+    body {
+        font-family: 'Roboto', sans-serif;
+        background: linear-gradient(to bottom, black 50%, white 50%);
+        letter-spacing: 5px;
+        margin-left: -150px;
+    }
+    
+    
+    
+
+    
+    .name {
+        color: #fa3f00;
+        font-size: 8rem;
+        top: 126px;
+        left: 275px;
+        position: absolute;
+    }
+    
+    .name-2 {
+        margin-bottom: 200px;
+        margin-left: 50px;
+        font-weight: bold;
+    }
+    
+    .info {
+        position: absolute;
+        font-size: 25px;
+    }
+    
+    .info, a  {
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    .info, ul, li {
+        list-style: none;
+        padding-top: 15px;
+        font-style:italic;
+        font-weight: bold;
+    }
+    
+    .vzdelani {
+        
+        font-size: 25px;
+        position: absolute;
+        padding-top: 420px;
+        letter-spacing: 2.5px;
+        margin-top: -90px;
+    }
+    
+    .nav-info {
+        margin-top: -90px;
+    }
+    
+    .nav-vzdelani {
+        margin-top: -10px;
+    }
+    
+    .name {
+        color: #fa3f00;
+        font-size: 8rem;
+        top: 126px;
+        left: -35px;
+        position: absolute;
+        
+    }
+    
+    
+    
+    h2, .name-2 {
+        color: #fff;
+        font-size: clamp(50px, 4vw, 150px);
+        padding: 25px;
+    }
+    
+    
+    .info {
+        color: #fff;
+        position: absolute;
+        margin-left: 85px;
+        font-size: 35px;
+    }
+    
+    .info, a  {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .info, ul, li {
+        list-style: none;
+        padding-top: 15px;
+    }
+    
+    
+    .vzdelani {
+        color: #fff;
+        font-size: 25px;
+        position: absolute;
+        padding-top: 337px;
+        letter-spacing: 2.5px;
+    }
+    
+    .nav-info {
+        margin-top: -90px;
+    }
+    
+    ul {
+        margin-top: 50px;
+    }
+
+
+    .robot {
+        position: relative;
+        left: 200px;
+        
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+
+    a {
+        font-family:  'Roboto', sans-serif;
+        font-size: 1rem;
+        position: absolute;
+        z-index: 1000;
+    }
+
+
+    .git {
+        color: #fa3f00;
+        font-family:  'Roboto', sans-serif;
+        font-size: 4rem;
+        text-decoration: none;
+        
+        margin-top: 200px;
+        border: 2px solid black;
+        padding: 50px;
+        background-color: #000000;
+        border-radius: 50%;
+    }
+    
+
+    
+
+
+}
+    
+    
+    
+
+
+
+
+
+   
+
+
+
